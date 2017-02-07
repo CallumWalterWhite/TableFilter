@@ -1,0 +1,351 @@
+.FilterBox {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    display: none;
+    width: 200px;
+    background-color: #f2f2f2;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: inherit;
+    position: absolute;
+    z-index: 1000;
+}
+
+.admin-form, .admin-form * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mb5 {
+    margin-bottom: 5px !important;
+}
+
+h5, .h5 {
+    font-size: 16px;
+}
+
+.admin-form .section {
+    margin-bottom: 22px;
+}
+
+.admin-form {
+    line-height: 1.2312;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+}
+
+.admin-form .field {
+    display: block;
+    position: relative;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+.admin-form .option {
+    margin-right: 15px;
+}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+.admin-form .option, .admin-form .rating, .admin-form .switch, .admin-form .captcode {
+    -webkit-animation: bugfix infinite 1s;
+}
+}
+
+.admin-form .option {
+    position: relative;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.admin-form .radio, .admin-form .option, .admin-form .checkbox {
+    cursor: pointer;
+}
+
+
+.admin-form .switch, .admin-form .option, .admin-form .field-label {
+    font-size: 14px;
+}
+
+
+.admin-form label, .admin-form input, .admin-form button, .admin-form select, .admin-form textarea {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    outline: none;
+}
+
+
+
+.admin-form .option > input {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    opacity: 0;
+    left: 0;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.admin-form label, .admin-form input, .admin-form button, .admin-form select, .admin-form textarea {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    outline: none;
+}
+
+
+.admin-form .radio, .admin-form .checkbox {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    top: 1px;
+    vertical-align: bottom;
+}
+
+.admin-form .checkbox, .admin-form .radio {
+    cursor: pointer;
+    position: relative;
+    margin-right: 5px;
+    background: #fff;
+    display: inline-block;
+    border: 3px solid #DDD;
+    height: 21px;
+    width: 21px;
+    top: 4px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
+.admin-form .radio {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+.admin-form .radio, .admin-form .button, .admin-form .tooltip, .admin-form .checkbox, .admin-form .gui-input, .admin-form .input-footer, .admin-form .notification, .admin-form .gui-textarea, .admin-form .select > select, .admin-form .select-multiple select {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+
+.admin-form .radio, .admin-form .button, .admin-form .checkbox, .admin-form .select .arrow, .admin-form .switch > label, .admin-form .ui-slider .ui-slider-handle {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.radio, .checkbox {
+    position: relative;
+    display: block;
+    min-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.admin-form label, .admin-form input, .admin-form button, .admin-form select, .admin-form textarea {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    outline: none;
+}
+
+.admin-form .switch, .admin-form .option, .admin-form .field-label {
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+.admin-form label, .admin-form input, .admin-form button, .admin-form select, .admin-form textarea {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    outline: none;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.clt, .clt ul, .clt li {
+     position: relative;
+}
+
+.clt ul {
+    list-style: none;
+    padding-left: 32px;
+	text-align: left;
+}
+
+.clt li::before, .clt li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+}
+
+.clt li::before {
+    border-top: 1px solid #000;
+    top: 9px;
+    width: 8px;
+    height: 0;
+}
+
+.clt li::after {
+    border-left: 1px solid #000;
+    height: 100%;
+    width: 0px;
+    top: 2px;
+}
+
+.clt ul > li:last-child::after {
+    height: 8px;
+}
+
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline: 0;
+    outline-offset: -2px;
+}
+
+.admin-form .radio:before {
+    margin: 4px;
+    width: 7px;
+    height: 7px;
+    background: #888;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.admin-form input:checked + .checkbox:before, .admin-form input:checked + .radio:before {
+    display: block;
+}
+
+.admin-form .checkbox:before, .admin-form .radio:before {
+    content: '';
+    display: none;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+.admin-form input:checked + .checkbox:before, .admin-form input:checked + .radio:before {
+    display: block;
+}
+
+
+.admin-form .checkbox:after, .admin-form .checkbox:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.admin-form .checkbox:before {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 6px;
+    height: 3px;
+    border: solid #888;
+    border-width: 0 0 3px 3px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.admin-form .checkbox:before, .admin-form .radio:before {
+    content: '';
+    display: none;
+}
+
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
